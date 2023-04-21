@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  background-image: url("https://schauf.eu/files/images/_header_image_1920w/Basketballkorb-mit-Anzeigetafel-im-Hintergrund.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  margin: 80px auto;
+  justify-content: space-around;
+  width: 875px;
+  height: 485px;
+  background: #000000b2;
+}
+
+h3 {
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  color: #eeeeee;
+  margin-bottom: 0;
+  padding-top: 48px;
+}
+
+h1 {
+  font-family: Cursed Timer ULiL;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 127px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #d7482e;
+}
+
+.score {
+  width: 155px;
+  height: 120px;
+  background: #080001;
+  border-radius: 5px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+button {
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background: none;
+  color: #9aabd8;
+  font-family: Cursed Timer ULiL;
+  font-weight: 400px;
+  font-size: 14px;
+  cursor: pointer;
+}
