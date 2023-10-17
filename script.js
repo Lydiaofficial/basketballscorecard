@@ -19,6 +19,10 @@ function homePlusThree() {
   scoreHome.textContent = homeScore;
 }
 
+function resetHome() {
+  scoreHome.textContent = homeScore
+}
+
 function guestplusOne() {
   guestScore += 1;
   scoreGuest.textContent = guestScore;
@@ -31,4 +35,8 @@ function guestplusTwo() {
 function guestplusThree() {
   guestScore += 3;
   scoreGuest.textContent = guestScore;
+}
+
+function resetGuest() {
+  scoreHome.textContent = guestScore
 }
